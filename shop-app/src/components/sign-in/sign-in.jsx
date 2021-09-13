@@ -25,6 +25,7 @@ class SignIn extends Component {
 
     try {
       await createUserWithEmailAndPassword(auth, email, password);
+      // console.log(auth, email, password);
       this.setState({ emial: "", password: "" });
     } catch (error) {
       console.log(error);
