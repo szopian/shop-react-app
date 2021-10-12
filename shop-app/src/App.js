@@ -5,7 +5,7 @@ import { createStructuredSelector } from "reselect";
 
 import "./App.css";
 
-import Header from "./components/header/header";
+import Header from "./components/header/header.jsx";
 import SignInAndSignUp from "./components/sign-in-and-sign-up/sign-in-and-sign-up";
 import HomePage from "./pages/homepage/homepage";
 import ShopPage from "./pages/shop/shop";
